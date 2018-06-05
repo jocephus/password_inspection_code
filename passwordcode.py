@@ -1,6 +1,6 @@
 print "Welcome to the Password Code Compliance Checking Tool."
 print "This is a satire tool written by @C_3PJoe to complement"
-print "his State Password Inspector badge made by @SkyDog"
+print "his State Password Inspector badge made by @SkyDogCon"
 print " "
 print " "
 print " "
@@ -57,4 +57,10 @@ def anthr():
        print "QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQWWWWQQQQQmwywwwwwwmQQWQQQQQQQQQQQ"
        print "QQQQQQQWQQQWQQQQQQWQQQWQQQQQWQQQQQQQQQQQQQQQQWQQQQQWQQQWWWQQQQQQQQQQQQQQQWQ"
 
-main()
+eu = raw_input("Are you in the European Union (EU)?\t(Y/N)")
+if eu.lower() == str('y') or eu.lower() == str('Y'):
+    print "Sorry...GDPR Compliance and Stuff."
+    exit()
+else:
+    main()
+
